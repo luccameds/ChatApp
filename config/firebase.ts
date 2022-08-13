@@ -20,4 +20,4 @@ if (Constants.manifest && Constants.manifest.extra) {
 }
 
 export const auth = getAuth();
-export const database = getFirestore();
+export const db = getFirestore();
